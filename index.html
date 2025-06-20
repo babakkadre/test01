@@ -1,1789 +1,341 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Twirl Play - Top Online Casinos & Games</title>
-
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Discover the top 10 online casinos and the 10 most exciting online games. Explore detailed reviews, ratings, and exclusive bonuses at Twirl Play.">
-	<meta name="keywords" content="online casino, online games, top casinos, best games, gambling, slots, blackjack, roulette, poker, bonuses, reviews">
-    <meta name="author" content="Twirl Play Casino">
-    <meta name="robots" content="index, nofollow">
-
-    <!-- Open Graph / Social Media Meta Tags -->
-    <meta property="og:title" content="Twirl Play - Top Online Casinos & Games">
-    <meta property="og:description" content="Discover the top 10 online casinos and the 10 most exciting online games. Explore detailed reviews, ratings, and exclusive bonuses at Twirl Play.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://twirlplay.com">
-    <meta property="og:image" content="https://twirlplay.com/img/logo.jpeg">
-
-    <!-- Canonical URL -->
-    <link rel="canonical" href="https://twirlplay.com">
- 
-    <!-- Rich Snippet / Structured Data for SEO -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Twirl Play - Top Online Casinos & Games",
-      "url": "https://twirlplay.com",
-      "description": "Discover the top 10 online casinos and the 10 most exciting online games. Explore detailed reviews, ratings, and exclusive bonuses at Twirl Play.",
-      "publisher": {
-        "@type": "Organization",
-        "name": "Twirl Play Casino",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://twirlplay.com/img/logo.jpeg",
-          "width": "710",  
-          "height": "246"   
-        }
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-           "@type": "EntryPoint",
-           "urlTemplate": "https://twirlplay.com/?s={search_term_string}" 
-        },
-        "query-input": "required name=search_term_string"
-      },
-       "inLanguage": "en"
-    }
-    </script>
-
-<style>
-:root {
-    --primary-blue: #3498db;
-    --secondary-red: #e74c3c;
-    --dark-black: #181818;
-    --light-gray: #f0f0f0;
-    --medium-gray: #333;
-    --highlight-green: #2ecc71;
-    --star-yellow: #f39c12;
-}
-
-body {
-    font-family: sans-serif;
-    margin: 0 auto;
-    background: linear-gradient(to right, #bf1aa1, #131314, #380be5);
-    color: var(--light-gray);
-    line-height: 1.6;
-    max-width: 1600px;
-}
-
-/* Header and Navigation */
-header {
-    background: linear-gradient(to right, #bf1aa1, #131314, #380be5);
-    padding: 1em 0;
-    text-align: center;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-
-.logo h1 {
-    margin: 0;
-    color: var(--light-gray);
-}
-
-.nav-links {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-}
-
-.nav-links li {
-    margin: 0 1em;
-}
-
-.nav-links a {
-    color: var(--light-gray);
-    text-decoration: none;
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.nav-links a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.hamburger {
-    display: none;
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.hamburger .line {
-    width: 30px;
-    height: 3px;
-    background-color: var(--light-gray);
-    margin: 3px 0;
-    transition: 0.4s;
-}
-
-/* Hero Section */
-.hero {
-    --secondary-red-rgb: 231, 76, 60;
-    --primary-blue-rgb: 52, 152, 219;
-    padding: 5px;
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-.hero-image-placeholder {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: var(--light-gray);
-    padding: 10px;
-    margin: 8px auto;
-    border-radius: 8px;
-}
-
-.hero h1 {
-    margin-top: 0;
-    color: var(--light-gray);
-}
-
-.hero p {
-    --light-gray-rgb: 240, 240, 240;
-    color: rgba(var(--light-gray-rgb), 0.8);
-    margin-bottom: 1.5em;
-}
-
-.hero .button-group a {
-    display: inline-block;
-    background:linear-gradient(to bottom, #ffd700, #ff9900);
-    color: #f20000;
-    padding: 6px 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 8px auto;
-    transition: background-color 0.3s ease;
-	text-shadow:2px 2px 2px rgba(0, 0, 0, 0.3);
-	font-family:cursive;
-	margin:-15px auto 0;
-}
-
-.hero .button-group a:hover {
-   background:linear-gradient(to bottom, #ffd700, #96ff00);
-}
-
-/* Section Titles */
-.section-title {
-    text-align: center;
-    padding: 0;
-    color: #efff00;
-    font-size: 30px;
-    margin-top: 40px;
-}
-
-/* List Item (Casinos and Games) */
-.list-item {
-    background-color: rgba(0, 0, 0, 0.2);
-    margin: 1em 2em;
-    padding: 1.5em;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.list-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-.logo-placeholder {
-    background-color: var(--medium-gray);
-    color: #bbb;
-    width: 150px;
-    height: 150px;
-    border-radius: 6px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.5em;
-    margin-right: 1em;
-}
-
-.item-details {
-    flex-grow: 1;
-}
-
-.item-details h3 {
-    margin-top: 0;
-    color: #fcff43;
-}
-
-.rating {
-    color: var(--star-yellow);
-    margin-bottom: 0.5em;
-}
-
-.features {
-    color: rgba(var(--light-gray-rgb), 0.8);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 0.5em;
-}
-
-.features span {
-    margin-right: 1em;
-}
-
-.features .tick {
-    color: var(--highlight-green);
-    margin-right: 0.3em;
-}
-
-.button-link {
-    font-family:cursive;
-	background:linear-gradient(to bottom, #ffd700, #ff9900);
-    color: #f20000;
-	text-shadow:2px 2px 2px rgba(0, 0, 0, 0.3);
-    padding: 0.7em 1.2em;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    white-space: nowrap;
-}
-
-.button-link:hover {
-    background:linear-gradient(to bottom, #ffd700, #96ff00);
-}
-
-/* Sorting */
-.sorting-options {
-    text-align: center;
-    padding: 1em 0;
-    margin-bottom: 1em;
-}
-
-.sorting-options label {
-    color: var(--light-gray);
-    margin-right: 0;
-    cursor: pointer;
-}
-
-.sorting-options input {
-    margin-right: 0.3em;
-    cursor: pointer;
-}
-
-/* Footer */
-footer {
-    background-color: var(--medium-gray);
-    padding: 2em 0;
-    text-align: center;
-    color: rgba(var(--light-gray-rgb), 0.7);
-    margin-top: 2em;
-    font-size: 0.9em;
-}
-
-footer ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 0 1em 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-footer li {
-    margin: 0 1em;
-}
-
-footer a {
-    color: rgba(var(--light-gray-rgb), 0.7);
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-footer a:hover {
-    color: var(--light-gray);
-}
-
-footer p {
-    margin-top: 1em;
-}
-
-/* Modals */
-.modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.modal-content {
-    background:linear-gradient(to right, #bf1aa1, #131314, #380be5);
-    margin: 88px auto;
-    padding: 20px;
-    border: 1px solid #555;
-    width: 80%;
-    border-radius: 8px;
-    position: relative;
-}
-
-.close-button {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close-button:hover,
-.close-button:focus {
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-/* Contact Form (Inside Modal) */
-.contact-form label {
-    display: block;
-    margin-bottom: 0.5em;
-    color: var(--light-gray);
-}
-
-.contact-form input,
-.contact-form textarea {
-    width: 100%;
-    padding: 0.8em;
-    margin-bottom: 1em;
-    border: 1px solid #555;
-    background-color: #d4d4d4;
-    color: black;
-    border-radius: 4px;
-    box-sizing: border-box;
-}
-
-.contact-form button {
-    background-color: var(--primary-blue);
-    color: var(--light-gray);
-    padding: 0.8em 1.5em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    transition: background-color 0.3s ease;
-}
-
-.contact-form button:hover {
-    background-color: #2980b9;
-}
-
-.hero-img {
-    width: 100%;
-    height: 500px;
-    border-radius: 8px;
-}
-
-#casinos-list,
-#games-list {
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-#top-casinos,
-#top-games {
-    scroll-margin-top: 80px;
-}
-
-#toTopBtn {
-    font-family:cursive;
-	background:linear-gradient(to bottom, #ffd700, #ff9900);
-    color: #f20000;
-	text-shadow:2px 2px 2px rgba(0, 0, 0, 0.3);
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 100;
-    display: none;
-    border: none;
-    border-radius: 10px;
-    padding: 4px 15px;
-    font-size: 28px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-    transition: background-color 0.3s;
-}
-
-#toTopBtn:hover {
-    background-color: #9806b3;
-}
-
-#cookieConsent {
-    position: fixed;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    z-index: 9999;
-}
-
-.cookie-box {
-    background: #2c3e50;
-    color: #ecf0f1;
-    padding: 15px 25px;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.cookie-box p {
-    margin: 0;
-    font-size: 15px;
-}
-
-.cookie-box button {
-    background: #27ae60;
-    border: none;
-    padding: 10px 20px;
-    color: white;
-    font-weight: bold;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-
-.cookie-box button:hover {
-    background: #219150;
-}
-
-.logo-image {
-    width: 200px;
-    height: 150px;
-    margin: 0 15px 0 0;
-    border-radius: 8px;
-    background: white;
-    padding: 1px;
-}
-
-/* Slot Machine Styles */
-.slot-machine {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    /*background: linear-gradient(135deg, #720000 0%, #300000 100%);*/
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-    /*border: 3px solid #ffcc00;*/
-}
-
-.jackpot-header {
-    text-align: center;
-    margin-bottom: 0px;
-    position: relative;
-}
-
-.jackpot-sign {
-   /* background: linear-gradient(to bottom, #ffd700, #ff9900);*/
-    color: #ff0000;
-    font-size: 38px;
-    font-weight: bold;
-   /* padding: 5px 25px;*/
-    border-radius: 8px;
-    display: inline-block;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-   /* box-shadow: 0 5px 15px rgba(255, 215, 0, 0.5);*
-   /* border: 2px solid #fff;*/
-    position: relative;
-    text-shadow: 2px 2px 2px #ffcc00;
-    margin: 25px auto 0px;
-}
-
-.jackpot-sign::before {
-    content: '';
-    /*position: absolute;*/
-    top: -2px;
-    left: -2px;
-    right: -2px;
-    bottom: -2px;
-   /* border: 2px solid #ffcc00;
-    border-radius: 10px;*/
-    animation: pulse-border 1.5s infinite;
-}
-
-.jackpot-lights {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 10px;
-}
-
-.jackpot-light {
-    width: 10px;
-    height: 10px;
-    background-color: #ffcc00;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0 5px;
-    animation: blink-light 0.7s infinite alternate;
-}
-
-.slot-display {
-    display: flex;
-    justify-content: space-between;
-    background: linear-gradient(to bottom, #000000, #1a1a1a);
-    padding: 20px 15px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    position: relative;
-    border: 3px solid #000;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.8), 0 0 15px rgba(255, 215, 0, 0.5);
-    overflow: hidden;
-}
-
-.slot-display::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 15px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.2), transparent);
-}
-
-.slot-column {
-    width: 22%;
-    background: #fff;
-    height: 80px;
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden;
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
-    border: 2px solid #333;
-}
-
-.slot-column-inner {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 3px;
-    overflow: hidden;
-    background: #fff ;
-}
-
-.slot-symbol {
-    font-size: 48px;
-    font-weight: bold;
-    color: #ff0000;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-
-.slot-symbol.seven {
-    color: #ff0000;
-}
-
-.slot-controls {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
-}
-
-.spin-message {
-    color: #ffcc00;
-    text-align: center;
-    margin: 15px auto 0;
-    font-size: 18px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-.spin-button {
-   	font-family:cursive;
-	background:linear-gradient(to bottom, #ffd700, #ff9900);
-    color: #f20000;
-	text-shadow:2px 2px 2px rgba(0, 0, 0, 0.3);
-    border: none;
-    padding: 10px 15px;
-    font-size: 22px;
-    border-radius: 40px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(207, 4, 4, 0.4), inset 0 2px 5px rgba(255, 255, 255, 0.3);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    /*border: 3px solid #ffcc00;*/
-    position: relative;
-    overflow: hidden;
-}
-
-.spin-button::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-    transition: 0.5s;
-}
-
-.spin-button:hover {
-    background: linear-gradient(to bottom, #ffd700, #96ff00);
-   /* transform: translateY(-3px);*/
-    box-shadow: 0 8px 25px rgba(207, 4, 4, 0.6), inset 0 2px 5px rgba(255, 255, 255, 0.3);
-}
-
-.spin-button:hover::before {
-    left: 100%;
-}
-
-.spin-button:disabled {
-    background: #777;
-    cursor: not-allowed;
-    transform: none;
-    box-shadow: none;
-    border: 3px solid #999;
-}
-
-.spin-count {
-    position: relative;
-    top: 0px;
-    right: 0px;
-    background-color: #60000000;
-    color: #fff;
-    padding: 0;
-    font-size: 16px;
-    margin: 0 auto 16px;
-}
-
-.win-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
-}
-
-.win-modal.active {
-    opacity: 1;
-    visibility: visible;
-}
-
-.win-content {
-    background: linear-gradient(135deg, #720000 0%, #300000 100%);
-    max-width: 500px;
-    width: 90%;
-    padding: 30px;
-    border-radius: 15px;
-    border: 3px solid #ffcc00;
-    position: relative;
-    box-shadow: 0 0 30px rgba(255, 204, 0, 0.5);
-    transform: scale(0.9);
-    transition: transform 0.3s ease;
-}
-
-.win-modal.active .win-content {
-    transform: scale(1);
-}
-
-.win-text {
-    color: #ffcc00;
-    font-size: 28px;
-    text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
-    animation: pulse 1.5s infinite;
-}
-
-.continue-button {
-    background: linear-gradient(to bottom, #ffcc00, #ff9900);
-    color: #000;
-    border: none;
-    padding: 15px 35px;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    border: 2px solid #fff;
-    box-shadow: 0 5px 15px rgba(255, 153, 0, 0.4);
-    margin: 0 auto;
-    display: block;
-}
-
-.continue-button:hover {
-    background: linear-gradient(to bottom, #ffdd33, #ffaa33);
-    transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(255, 153, 0, 0.6);
-}
-
-.coin {
-    position: fixed;
-    width: 40px;
-    height: 40px;
-    background: radial-gradient(circle at center, #ffdd33, #ff9900);
-    border-radius: 50%;
-    border: 2px solid #ffcc00;
-    box-shadow: 0 0 10px rgba(255, 204, 0, 0.7);
-    z-index: 5;
-    animation: fall 1.5s linear forwards;
-}
-
-.dice {
-    position: fixed;
-    width: 30px;
-    height: 30px;
-    background: #fff;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-    z-index: 5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold;
-    color: #000;
-    animation: roll 2s linear forwards;
-}
-
-.money {
-    position: fixed;
-    width: 50px;
-    height: 25px;
-    background: #3dc70b;
-    border-radius: 2px;
-    border: 1px solid #2ca307;
-    box-shadow: 0 0 10px rgba(61, 199, 11, 0.7);
-    z-index: 5;
-    animation: float 2s linear forwards;
-}
-
-.firework {
-    position: fixed;
-    width: 5px;
-    height: 5px;
-    transform-origin: center;
-    z-index: 1001;
-    pointer-events: none;
-}
-
-/* Animation keyframes */
-@keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
-    100% { transform: scale(1); }
-}
-
-@keyframes pulse-border {
-    0% { box-shadow: 0 0 5px rgba(255, 204, 0, 0.8); }
-    50% { box-shadow: 0 0 20px rgba(255, 204, 0, 0.8); }
-    100% { box-shadow: 0 0 5px rgba(255, 204, 0, 0.8); }
-}
-
-@keyframes blink-light {
-    from { opacity: 0.3; }
-    to { opacity: 1; }
-}
-
-@keyframes spinning {
-    0% { transform: translateY(-300%); }
-    100% { transform: translateY(300%); }
-}
-
-@keyframes spin-reel {
-    0% { transform: translateY(0); }
-    20% { transform: translateY(-100%); }
-    40% { transform: translateY(-200%); }
-    60% { transform: translateY(-300%); }
-    80% { transform: translateY(-400%); }
-    100% { transform: translateY(-500%); }
-}
-
-@keyframes fall {
-    0% { transform: translateY(-100px) rotate(0deg); }
-    100% { transform: translateY(calc(100vh + 50px)) rotate(360deg); }
-}
-
-@keyframes roll {
-    0% { transform: translateY(-100px) rotate(0deg); }
-    100% { transform: translateY(calc(100vh + 50px)) rotate(720deg); }
-}
-
-@keyframes float {
-    0% { transform: translateY(-100px) rotate(0deg); }
-    50% { transform: translateY(50vh) rotate(10deg) translateX(100px); }
-    100% { transform: translateY(calc(100vh + 50px)) rotate(20deg) translateX(200px); }
-}
-
-@keyframes explode {
-    0% { transform: scale(0); opacity: 1; }
-    50% { opacity: 1; }
-    100% { transform: scale(1); opacity: 0; }
-}
-
-.slot-column.spinning .slot-column-inner {
-    animation: spin-reel 0.2s linear infinite;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-.hero .button-group a{font-size:20px;}
-.button-link{font-size:20px;}
-    .hero-img {
-        height: 275px;
-    }
-
-    .hero-image-placeholder {
-        padding: 0px;
-    }
-
-    .modal-content {
-        margin: 88px auto;
-    }
-
-    .navbar {
-        padding: 0 10px;
-    }
-
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: fixed;
-        top: 0;
-        right: -100%;
-        background-color: rgba(0, 0, 0, 0.9);
-        width: 100%;
-        height: auto;
-        padding-top: 10px;
-        transition: right 0.3s ease-in-out;
-        z-index: 1000;
-    }
-
-    .nav-links.active {
-        display: flex;
-        right: 0;
-        background: linear-gradient(to right, #bf1aa1, #131314, #380be5);
-    }
-
-    .nav-links li {
-        margin: 0;
-        padding: 0;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        text-align: left;
-    }
-
-    .nav-links li:last-child {
-        border-bottom: none;
-    }
-
-    .nav-links a {
-        display: block;
-        padding: 0.8em 1.5em;
-    }
-
-    .hamburger {
-        display: flex;
-        position: absolute;
-        top: 1.2em;
-        right: 15px;
-        z-index: 1001;
-    }
-
-    .hamburger.active .line:nth-child(1) {
-        transform: rotate(-45deg) translate(-5px, 6px);
-    }
-
-    .hamburger.active .line:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .line:nth-child(3) {
-        transform: rotate(45deg) translate(-5px, -6px);
-    }
-
-    .list-item {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-    .logo-placeholder {
-        margin-right: 0;
-        margin-bottom: 1em;
-    }
-
-    .features span {
-        margin-right: 0.5em;
-        margin-bottom: 0.3em;
-    }
-
-    footer ul {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    footer li {
-        margin: 0.5em 0;
-    }
-
-    .slot-machine {
-        padding: 15px;
-        max-width: 95%;
-    }
-
-    .slot-column {
-        height: 60px;
-    }
-
-    .slot-symbol {
-        font-size: 36px;
-    }
-
-    .win-text {
-        font-size: 24px;
-        padding: 15px;
-    }
-
-    .jackpot-sign {
-        font-size: 38px;
-    }
-
-    .spin-message {
-        font-size: 16px;
-    }
-
-    .spin-button {
-        padding: 12px 30px;
-        font-size: 18px;
-    }
-
-    .win-content {
-        width: 85%;
-        padding: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    .slot-machine {
-        padding: 10px;
-    }
-
-    .slot-column {
-        height: 50px;
-    }
-
-    .slot-symbol {
-        font-size: 28px;
-    }
-
-    .jackpot-sign {
-        font-size: 38px;
-       /* padding: 5px 15px;*/
-    }
-
-    .win-text {
-        font-size: 20px;
-    }
-
-    .spin-button {
-        padding: 10px 25px;
-        font-size: 16px;
-    }
-
-    .spin-message {
-        font-size: 14px;
-    }
-
-    .win-content {
-        width: 80%;
-        padding: 15px;
-    }
-
-    .continue-button {
-        padding: 10px 20px;
-        font-size: 16px;
-    }
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameCentral.co.uk - Compare Top UK Online Gaming Sites & Bonuses (2025)</title>
+    <meta name="description" content="Find and compare the best UK online gaming sites for April 2025. Expert ratings, verified bonuses, free spins, and detailed reviews.">
+    <meta name="keywords" content="online games uk, game bonus, game comparison, uk gaming sites, online gaming uk, game offers">
+    <link rel="canonical" href="https://www.gamecentral.co.uk/" />
+    <meta property="og:title" content="GameCentral.co.uk - Top UK Online Gaming Sites (2025)" />
+    <meta property="og:description" content="Compare bonuses, ratings, and features of the best UK online gaming sites." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.gamecentral.co.uk/" />
+    <meta property="og:image" content="https://placehold.co/1200x630/1a1a2e/ffffff?text=GameCentral.co.uk" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="GameCentral.co.uk - Top UK Online Gaming Sites (2025)">
+    <meta name="twitter:description" content="Compare bonuses, ratings, and features of the best UK online gaming sites.">
+    <meta name="twitter:image" content="https://placehold.co/1200x630/1a1a2e/ffffff?text=GameCentral.co.uk">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@latest/font/lucide.css" />
+    <script src="https://cdn.tailwindcss.com" defer></script>
+<!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17026649598"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'AW-17026649598'); </script>
+
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KCDS5KQ4');</script>
+<!-- End Google Tag Manager -->
 </head>
-<body id="home">
-<header>
-<div class="navbar">
-<div class="logo"><h1>Twirl Play</h1></div>
-<nav>
-<ul class="nav-links">
-<li><a href="#home">Home</a></li>
-<li><a href="#about-modal">About</a></li>
-<li><a href="#start-modal">Get Started</a></li>
-<li><a href="#faq-modal">FAQ</a></li>
-<li><a href="#contact-modal">Contact</a></li>
-</ul>
-</nav>
-<div class="hamburger">
-<div class="line"></div>
-<div class="line"></div>
-<div class="line"></div>
-</div>
-</div>
-</header>
-<section class="hero">
- <h1>Top Online Casinos & Games</h1>
-     <div class="button-group">
-        <a href="#top-casinos">Top 10 Casinos</a>
-        <a href="#top-games">Top 10 Games</a>
-    </div>
-<div class="hero-image-placeholder">
-  <div class="slot-machine">
-    <div class="jackpot-header">
-      <div class="jackpot-sign">JACKPOT</div>
-      <div class="jackpot-lights">
-        <span class="jackpot-light" style="animation-delay: 0.1s;"></span>
-        <span class="jackpot-light" style="animation-delay: 0.2s;"></span>
-        <span class="jackpot-light" style="animation-delay: 0.3s;"></span>
-        <span class="jackpot-light" style="animation-delay: 0.4s;"></span>
-        <span class="jackpot-light" style="animation-delay: 0.5s;"></span>
-        <span class="jackpot-light" style="animation-delay: 0.6s;"></span>
-        <span class="jackpot-light" style="animation-delay: 0.7s;"></span>
-        <span class="jackpot-light" style="animation-delay: 0.8s;"></span>
-      </div>
-    </div>
-	<div class="spin-message">Try your luck with our JACKPOT!</div>
-    <div class="spin-count">Spins left: <span id="spins-left">3</span></div>
-    <div class="slot-display">
-      <div class="slot-column" id="column1">
-        <div class="slot-column-inner">
-          <div class="slot-symbol">0</div>
+<body class="bg-bg-dark text-text-light">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KCDS5KQ4"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+    <!-- Loader with Rocket Animation -->
+    <div id="loader-container">
+        <div class="rocket-container">
+            <div class="rocket">
+                <div class="rocket-body"></div>
+                <div class="fins"></div>
+                <div class="window"></div>
+                <div class="exhaust-flame"></div>
+                <div class="exhaust-fumes"></div>
+            </div>
+            <div class="moon"></div>
+            <div class="stars"></div>
         </div>
-      </div>
-      <div class="slot-column" id="column2">
-        <div class="slot-column-inner">
-          <div class="slot-symbol">0</div>
+        <p id="loader-text" class="mt-4 text-lg text-center px-4 text-text-light">Loading GameCentral...</p>
+    </div>
+
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 bg-brand-primary text-white p-3 z-[120]">
+      Skip to main content
+    </a>
+
+    <!-- Header/Navigation -->
+    <header class="bg-bg-dark py-4 border-b border-white/10 relative z-50">
+        <div class="container mx-auto px-4 flex justify-between items-center flex-wrap">
+            <div class="flex flex-col">
+                <a href="#home" class="nav-link text-2xl font-bold uppercase tracking-tight text-text-light">
+                    Game<span class="text-brand-primary">Central</span><span class="text-xs align-top">.co.uk</span>
+                </a>
+                <span class="text-xs text-text-dark">Your Guide to UK Online Gaming</span>
+            </div>
+
+            <nav class="hidden md:flex items-center space-x-1">
+                <a href="#home" data-page="home" class="nav-link px-3 py-2 rounded-full hover:bg-brand-primary/70 transition duration-200 text-sm">Home</a>
+                <a href="#bonus-calculator" data-page="bonus-calculator" class="nav-link px-3 py-2 rounded-full hover:bg-brand-primary/70 transition duration-200 text-sm">Bonus Calc</a>
+                <a href="#guides" data-page="guides" class="nav-link px-3 py-2 rounded-full hover:bg-brand-primary/70 transition duration-200 text-sm">Guides</a>
+                <a href="#privacy" data-page="privacy" class="nav-link px-3 py-2 rounded-full hover:bg-brand-primary/70 transition duration-200 text-sm">Privacy</a>
+                <a href="#terms" data-page="terms" class="nav-link px-3 py-2 rounded-full hover:bg-brand-primary/70 transition duration-200 text-sm">Terms</a>
+                <div id="search-container" class="relative ml-2">
+                    <input id="site-search" type="search" placeholder="Search..." aria-label="Search site" class="bg-white/10 rounded-full py-2 pl-10 pr-4 text-sm w-40 focus:outline-none focus:ring-2 focus:ring-brand-primary focus:bg-white/15 transition duration-200 placeholder-text-dark">
+                    <span class="lucide absolute left-3 top-1/2 transform -translate-y-1/2 text-text-dark text-base pointer-events-none">🔎</span>
+                </div>
+            </nav>
+
+            <button id="mobile-menu-button" aria-label="Toggle mobile menu" aria-expanded="false" class="md:hidden text-2xl p-2 text-text-light">
+                <span class="lucide">menu</span>
+            </button>
         </div>
-      </div>
-      <div class="slot-column" id="column3">
-        <div class="slot-column-inner">
-          <div class="slot-symbol">0</div>
+
+        <nav id="mobile-menu" class="hidden md:hidden bg-bg-medium absolute top-full left-0 w-full py-3 border-t border-white/10 z-40">
+            <div class="container mx-auto px-4 flex flex-col space-y-2">
+                <a href="#home" data-page="home" class="nav-link block px-3 py-2 rounded hover:bg-brand-primary/70 transition duration-200">Home</a>
+                <a href="#bonus-calculator" data-page="bonus-calculator" class="nav-link block px-3 py-2 rounded hover:bg-brand-primary/70 transition duration-200">Bonus Calc</a>
+                <a href="#guides" data-page="guides" class="nav-link block px-3 py-2 rounded hover:bg-brand-primary/70 transition duration-200">Guides</a>
+                <a href="#privacy" data-page="privacy" class="nav-link block px-3 py-2 rounded hover:bg-brand-primary/70 transition duration-200">Privacy Policy</a>
+                <a href="#terms" data-page="terms" class="nav-link block px-3 py-2 rounded hover:bg-brand-primary/70 transition duration-200">Terms & Conditions</a>
+                <a href="#about" data-page="about" class="nav-link block px-3 py-2 rounded hover:bg-brand-primary/70 transition duration-200">About Us</a>
+                <a href="#responsible" data-page="responsible" class="nav-link block px-3 py-2 rounded hover:bg-brand-primary/70 transition duration-200">Responsible Gaming</a>
+                <a href="#faq" data-page="faq" class="nav-link block px-3 py-2 rounded hover:bg-brand-primary/70 transition duration-200">FAQ</a>
+                <div class="relative mt-2">
+                    <input id="mobile-search" type="search" placeholder="Search..." aria-label="Search site" class="bg-white/10 rounded-full py-2 pl-10 pr-4 text-sm w-full focus:outline-none focus:ring-2 focus:ring-brand-primary focus:bg-white/15 transition duration-200 placeholder-text-dark">
+                    <span class="lucide absolute left-3 top-1/2 transform -translate-y-1/2 text-text-dark text-base pointer-events-none">🔎</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <div id="main-content">
+        <!-- Home Content -->
+        <main id="home-content" data-page-id="home" class="page-content active">
+            <section class="bg-gradient-to-b from-bg-dark to-bg-medium py-16 px-4 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Compare the UK's Best Online Gaming Sites</h1>
+                <p class="text-lg md:text-xl text-text-medium mb-8 max-w-3xl mx-auto" data-dynamic-date>Find top bonuses, expert reviews, and the latest offers for April 2025. Your ultimate guide to safe and fun online gaming.</p>
+                <a href="#comparison-table-section" class="inline-block bg-brand-primary text-white font-semibold px-8 py-3 rounded-full text-lg hover:bg-opacity-80 transition duration-200 view-top-sites-btn">
+                    <span class="btn-icon">🎮</span> View Top Sites <span class="btn-icon">🎲</span>
+                </a>
+            </section>
+
+            <div id="sticky-nav" class="sticky-nav py-3 border-b border-white/10">
+                <div class="container mx-auto px-4 flex flex-wrap justify-center items-center gap-2 md:gap-4">
+                    <span class="font-semibold mr-4 hidden md:inline">Quick Filters:</span>
+                    <button class="filter-button text-xs md:text-sm bg-white/10 px-3 py-1 rounded-full hover:bg-brand-primary/70 transition" data-filter="all">All Sites</button>
+                    <button class="filter-button text-xs md:text-sm bg-white/10 px-3 py-1 rounded-full hover:bg-brand-primary/70 transition" data-filter="new">New Sites</button>
+                    <button class="filter-button text-xs md:text-sm bg-white/10 px-3 py-1 rounded-full hover:bg-brand-primary/70 transition" data-filter="free_spins">Free Spins</button>
+                    <button class="filter-button text-xs md:text-sm bg-white/10 px-3 py-1 rounded-full hover:bg-brand-primary/70 transition" data-filter="low_wager">Low Wager</button>
+                </div>
+            </div>
+
+            <section id="comparison-table-section" class="container mx-auto px-4 py-8 md:py-12">
+                <h2 class="text-3xl font-semibold mb-6 text-center" data-dynamic-date>Top Rated Gaming Sites - April 2025</h2>
+
+                <div id="filter-section" class="bg-bg-medium p-4 rounded-lg mb-6 border border-white/10 flex flex-wrap items-center justify-between gap-4">
+                    <div class="hidden md:flex flex-wrap gap-2">
+                        <span class="font-medium self-center mr-2">Filter by:</span>
+                        <select id="filter-payment" aria-label="Filter by payment method" class="bg-bg-dark rounded p-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-primary">
+                            <option value="all">All Payments</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="skrill">Skrill</option>
+                            <option value="paysafecard">Paysafecard</option>
+                        </select>
+                        <select id="filter-feature" aria-label="Filter by feature" class="bg-bg-dark rounded p-2 text-sm focus:outline-none focus:ring-2 focus:ring-brand-primary">
+                            <option value="all">All Features</option>
+                            <option value="live_dealer">Live Dealer</option>
+                            <option value="mobile_app">Mobile App</option>
+                            <option value="sportsbook">Sportsbook</option>
+                        </select>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="font-medium mr-2">Sort by:</span>
+                        <button id="sort-rating" class="sort-button text-sm p-2 rounded bg-white/10 hover:bg-brand-primary/70" data-sort="rating">Rating <span class="sort-indicator text-xs">&#8597;</span></button>
+                        <button id="sort-bonus" class="sort-button text-sm p-2 rounded bg-white/10 hover:bg-brand-primary/70" data-sort="bonus">Bonus <span class="sort-indicator text-xs">&#8597;</span></button>
+                        <button id="sort-name" class="sort-button text-sm p-2 rounded bg-white/10 hover:bg-brand-primary/70" data-sort="name">Name <span class="sort-indicator text-xs">&#8597;</span></button>
+                    </div>
+                </div>
+
+                <div class="overflow-x-auto scrollbar-thin">
+                    <table class="w-full min-w-[800px] comparison-table border-collapse">
+                        <colgroup>
+                            <col style="width: 8%;">
+                            <col style="width: 20%;">
+                            <col style="width: 32%;">
+                            <col style="width: 15%;">
+                            <col style="width: 25%;">
+                        </colgroup>
+                        <thead class="bg-bg-medium text-left text-sm uppercase text-text-dark tracking-wider">
+                            <tr>
+                                <th class="p-3 font-semibold text-center">Rank</th>
+                                <th class="p-3 font-semibold text-center">Gaming Site</th>
+                                <th class="p-3 font-semibold text-center">Welcome Bonus</th>
+                                <th class="p-3 font-semibold text-center">Our Rating</th>
+                                <th class="p-3 font-semibold text-center">Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody id="game-list-container" class="divide-y divide-white/10">
+                            <!-- Game list will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+                <p class="text-xs text-center mt-6 text-text-dark">
+                    Bonus offers are subject to change and have specific terms and conditions. Please check the gaming site's website for full details. 18+ BeGambleAware.org.
+                </p>
+            </section>
+
+            <section class="bg-bg-medium py-12 px-4">
+                <div class="container mx-auto text-center max-w-3xl">
+                    <h2 class="text-3xl font-semibold mb-4">Why Trust GameCentral.co.uk?</h2>
+                    <p class="text-text-medium mb-6">We provide unbiased reviews and comparisons of UK-licenced online gaming sites. Our experts test sites thoroughly, verify bonuses, and check for fair terms, helping you play safely and responsibly.</p>
+                    <a href="#about" data-page="about" class="nav-link text-brand-secondary hover:text-brand-primary underline">Learn More About Us</a>
+					<p class="text-text-medium mb-6" style="margin-top:10px">
+					18+ Only | This site is intended for adults. By using this site, you confirm that you are 18 years of age or older.</p>
+					<p class="text-text-medium mb-6"><b>Please gamble responsibly.</b><br/>
+Gamble responsibly and in moderation. Do not consider gambling as a way of earning money, and only play with money that you can afford to lose. If you are worried about your gambling or affected by someone else's gambling, please contact <a href="https://www.gamcare.org.uk/" target="_blank" rel="nofollow" style="color:red;">GamCare</a> or <a href="https://gamblersanonymous.org/find-a-meeting/ga-gavle-monday/" target="_blank" rel="nofollow" style="color:red;">GamblersAnonymous</a> for help.</p>
+<p class="text-text-medium mb-6">If you share your computer with friends or family who are under the legal age to participate in our games and you would like to restrict their access to this site, please <a href="https://www.netnanny.com" target="_blank" rel="nofollow" style="color:red;">click here</a> to register with this filtering company.
+</p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Other Page Content Sections -->
+        <section id="guides-content" data-page-id="guides" class="page-content content-page">
+            <h2>Gaming Guides & Articles</h2>
+            <!-- Content loaded from data.json -->
+        </section>
+
+        <section id="bonus-calculator-content" data-page-id="bonus-calculator" class="page-content content-page">
+            <h2>Bonus Wagering Calculator</h2>
+            <!-- Content loaded from data.json -->
+        </section>
+
+        <section id="privacy-content" data-page-id="privacy" class="page-content content-page">
+            <h2>Privacy Policy</h2>
+            <!-- Content loaded from data.json -->
+        </section>
+
+        <section id="terms-content" data-page-id="terms" class="page-content content-page">
+            <h2>Terms and Conditions</h2>
+            <!-- Content loaded from data.json -->
+        </section>
+
+        <section id="about-content" data-page-id="about" class="page-content content-page">
+            <h2>About GameCentral.co.uk</h2>
+            <!-- Content loaded from data.json -->
+        </section>
+
+        <section id="responsible-content" data-page-id="responsible" class="page-content content-page">
+            <h2>Responsible Gaming</h2>
+            <!-- Content loaded from data.json -->
+        </section>
+
+        <section id="faq-content" data-page-id="faq" class="page-content content-page">
+            <h2>Frequently Asked Questions (FAQ)</h2>
+            <!-- Content loaded from data.json -->
+        </section>
+
+        <section id="cookies-content" data-page-id="cookies" class="page-content content-page">
+            <h2>Cookies Content</h2>
+            <!-- Content loaded from data.json -->
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-bg-medium border-t border-white/10 mt-16 py-12 px-4">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <h4 class="text-lg font-semibold mb-3 uppercase tracking-wide text-text-light">GameCentral.co.uk</h4>
+                    <p class="text-sm text-text-dark leading-relaxed">Your independent guide to the best and safest online gaming sites in the UK. We provide expert reviews, compare bonuses, and promote responsible play.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-3 uppercase tracking-wide text-text-light">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#home" data-page="home" class="nav-link text-text-medium hover:text-brand-primary transition duration-200">Home / Comparisons</a></li>
+                        <li><a href="#guides" data-page="guides" class="nav-link text-text-medium hover:text-brand-primary transition duration-200">Gaming Guides</a></li>
+                        <li><a href="#bonus-calculator" data-page="bonus-calculator" class="nav-link text-text-medium hover:text-brand-primary transition duration-200">Bonus Calculator</a></li>
+                        <li><a href="#about" data-page="about" class="nav-link text-text-medium hover:text-brand-primary transition duration-200">About Us</a></li>
+                        <li><a href="#faq" data-page="faq" class="nav-link text-text-medium hover:text-brand-primary transition duration-200">FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-3 uppercase tracking-wide text-text-light">Legal & Help</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#privacy" data-page="privacy" class="nav-link text-text-medium hover:text-brand-primary transition duration-200">Privacy Policy</a></li>
+                        <li><a href="#terms" data-page="terms" class="nav-link text-text-medium hover:text-brand-primary transition duration-200">Terms & Conditions</a></li>
+                        <li><a href="#responsible" data-page="responsible" class="nav-link text-text-medium hover:text-brand-primary transition duration-200">Responsible Gaming</a></li>
+                        <li><a href="#cookies" data-page="cookies" class="nav-link text-text-medium hover:text-brand-primary transition duration-200">Cookie Settings</a></li>
+                        <li><a href="/cdn-cgi/l/email-protection#dfbcb0b1abbebcab9fb8beb2babcbab1abadbeb3f1bcb0f1aab4" class="text-text-medium hover:text-brand-primary transition duration-200">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-3 uppercase tracking-wide text-text-light">Play Responsibly</h4>
+                    <div class="flex items-center space-x-4 mb-4">
+                        <a href="https://www.begambleaware.org/" target="_blank" rel="noopener noreferrer">
+                            <img data-src="https://placehold.co/100x40/ffffff/000000?text=BeGambleAware" alt="BeGambleAware" class="h-8 lazyload" src="https://placehold.co/100x40/1a1a3a/1a1a3a?text=">
+                        </a>
+                        <span class="text-2xl font-bold">18+</span>
+                    </div>
+					<p class="text-xs text-text-dark">Gambling can be addictive. Please play responsibly and only bet what you can afford. For help, visit  <a href="https://www.gamcare.org.uk/" target="_blank" rel="nofollow" style="color:red;">GamCare</a> or <a href="https://gamblersanonymous.org/find-a-meeting/ga-gavle-monday/" target="_blank" rel="nofollow" style="color:red;">GamblersAnonymous</a>.</p>
+
+
+                </div>
+            </div>
+            <div class="border-t border-white/10 pt-6 text-center text-sm text-text-dark">
+                &copy; <span class="current-year">2025</span> GameCentral.co.uk. All rights reserved. We are an independent comparison site. Please gamble responsibly.
+            </div>
         </div>
-      </div>
-      <div class="slot-column" id="column4">
-        <div class="slot-column-inner">
-          <div class="slot-symbol">0</div>
-        </div>
-      </div>
-    </div>
-    <div class="slot-controls">
-      
-      <button class="spin-button" id="spin-button">SPIN</button>
-    </div>
-  </div>
-</div>
+    </footer>
 
-<div class="win-modal" id="win-modal">
-  <div class="win-content">
-  <h3 style="color:yellow;font-size:25px;">Congratulations</h3>
-  <p>You won the game!<br/>It looks like it's your lucky day. </p>
-    <div class="win-text">Now try your luck at the casinos.</div>
-    <button class="continue-button" id="continue-button">CONTINUE</button>
-  </div>
-</div>
-<div class="win-modal" id="no-spins-modal">
-  <div class="win-content">
-    <div class="win-text">Now, it's time to try your luck at the casinos.</div>
-    <button class="continue-button" id="okay-button">OKAY</button>
-  </div>
-</div>
-    <p>Your ultimate guide to the best online casinos and most thrilling online games. Discover top-rated platforms and exciting entertainment in a secure and informative environment.</p>
-
-</section>
-
-<section id="top-casinos" class="casinos-section">
-    <h2 class="section-title">Top 10 Online Casinos</h2>
-    <div class="sorting-options">
-        <label>Sort By:</label>
-        <label><input type="radio" name="casino-sort" value="rating" checked> Rating</label>
-        <label><input type="radio" name="casino-sort" value="name"> Name</label>
-        <label><input type="radio" name="casino-sort" value="features"> Features</label>
-    </div>
-    <div id="casinos-list">
-        <!-- Casinos will be loaded here by JavaScript -->
-    </div>
-</section>
-
-<section id="top-games" class="games-section">
-    <h2 class="section-title">Top 10 Online Games</h2>
-    <div class="sorting-options">
-        <label>Sort By:</label>
-        <label><input type="radio" name="game-sort" value="rating" checked> Rating</label>
-        <label><input type="radio" name="game-sort" value="name"> Name</label>
-        <label><input type="radio" name="game-sort" value="popularity"> Popularity</label>
-    </div>
-    <div id="games-list">
-        <!-- Games will be loaded here by JavaScript -->
-    </div>
-</section>
-<button id="toTopBtn" title="Back to Top">↑</button>
-<footer>
-<ul>
-<li><a href="#terms-modal">Terms & Conditions</a></li>
-<li><a href="#privacy-modal">Privacy Policy</a></li>
-<li><a href="#disclaimer-modal">Disclaimer</a></li>
-<li><a href="#ccpa-modal">CCPA Privacy Notice</a></li>
-<li><a href="#responsible-gambling-modal">Responsible Gambling</a></li>
-</ul>
-<p>© 2025 Twirl Play. All rights reserved.</p>
-<p>Please note that casino games and gambling can be addictive and are not recommended for individuals under the age of 21. Gamble responsibly.</p>
-<p><strong>Disclaimer:</strong> 21+ Only. Gamble Responsibly. This site contains affiliate links and may earn commissions from signups. Online gambling may be restricted in your country. Please check local laws and play responsibly.</p>
-</footer>
-
-<!-- Modals -->
-<div id="about-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-button">×</span>
-        <h2>About Twirl Play</h2>
-        <p>Welcome to Twirl Play, your premier destination for discovering the top online casinos and the most captivating online games. Our team of experts carefully curates and reviews platforms to bring you only the best in online entertainment. We are committed to providing you with accurate information and resources to enhance your gaming experience responsibly.</p>
-    </div>
-</div>
-
-<div id="faq-modal" class="modal">
-<div class="modal-content">
-<span class="close-button">×</span>
-<h2>Frequently Asked Questions</h2>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">1. Are these online casinos safe and legal?</h3>
-<p>Yes. We only feature casinos that are licensed and regulated by reputable authorities, ensuring fair play and secure transactions.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">2. How do you choose the top 10 casinos?</h3>
-<p>We evaluate casinos based on trustworthiness, game variety, bonuses, user experience, payout speed, and customer support. Our rankings are updated regularly.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">3. Can I play these games for free?</h3>
-<p>Many of the featured casinos offer demo versions of popular games, allowing you to play for free without risking real money.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">4. What are the best games for beginners?</h3>
-<p>Slots, roulette, and blackjack are great starting points. We include beginner-friendly guides to help you learn the basics.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">5. Do I need to download anything to play?</h3>
-<p>Most casinos offer instant-play options via your browser. However, some also provide downloadable apps for mobile or desktop.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">6. Are there welcome bonuses or free spins?</h3>
-<p>Yes! Most of our recommended casinos offer generous welcome bonuses, free spins, and other promotions for new players.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">7. Can I use my phone or tablet to play?</h3>
-<p>Absolutely. All the casinos we recommend are mobile-optimized and support gameplay on iOS and Android devices.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">8. Which payment methods are accepted?</h3>
-<p>Common methods include credit/debit cards, e-wallets (PayPal, Skrill, Neteller), bank transfers, and even cryptocurrencies at some casinos.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">9. How do I know if a game is fair?</h3>
-<p>Licensed casinos use Random Number Generators (RNGs) and undergo regular audits to ensure fair and unbiased game results.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">10. What should I do if I have a problem with a casino?</h3>
-<p>We recommend contacting the casino's customer support directly. If the issue remains unresolved, feel free to contact us—we may be able to help or advise further.</p>
-</div>
-</div>
-</div>
-<div id="start-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-button">×</span>
-        <h2>How to Get Started</h2>
-<p>New to online casinos? No problem. Follow these simple steps to start playing safely and confidently in minutes.</p>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">1. Choose a Trusted Casino</h3>
-<p>Start by visiting our <strong>Top 10 Casinos</strong> page. Each casino listed is reviewed and licensed, offering secure gameplay and fast payouts.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">2. Create Your Account</h3>
-<p>Click on your preferred casino and sign up by filling out a short registration form. You’ll need to provide basic information like your name, email, and country.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">3. Claim Your Welcome Bonus</h3>
-<p>Most casinos offer a welcome bonus when you sign up and make your first deposit. This may include bonus money, free spins, or both. Make sure to read the terms!</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">4. Make a Deposit</h3>
-<p>Head to the cashier section and choose a payment method. Popular options include credit/debit cards, PayPal, Skrill, Neteller, and even crypto. Your funds will usually appear instantly.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">5. Pick a Game and Start Playing</h3>
-<p>Browse the game lobby and pick something you like—slots, blackjack, roulette, poker, or live dealer games. Most platforms also allow free play so you can practice first.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">6. Play Responsibly</h3>
-<p>Set a budget before you start and stick to it. Never chase losses. Every casino we recommend offers tools like deposit limits, time-outs, and self-exclusion to help you stay in control.</p>
-</div>
-<div style="margin-bottom: 25px;">
-<h3 style="font-size: 20px;">7. Withdraw Your Winnings</h3>
-<p>If you win, congrats! Head back to the cashier section and request a withdrawal. Depending on the method, it may take a few hours to a few days to process.</p>
-</div>
-<p style="margin-top: 30px;">That's it! You're now ready to enjoy the excitement of online casinos. Have fun, play smart, and good luck!</p>
-</div>
-</div>
-
-<div id="contact-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-button">×</span>
-        <h2>Contact Us</h2>
-        <div class="contact-form">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-            <button type="submit">Send Message</button>
+    <!-- Modals & Popups -->
+    <div id="quick-view-modal" class="modal fixed inset-0 bg-black/80 flex items-center justify-center p-4 z-[100] hidden" role="dialog" aria-modal="true" aria-labelledby="quick-view-title">
+        <div class="modal-content bg-bg-medium rounded-lg shadow-xl w-full max-w-lg max-h-[90vh] overflow-y-auto scrollbar-thin relative p-6">
+            <button class="modal-close absolute top-3 right-3 text-text-dark hover:text-white text-2xl icon-x" aria-label="Close modal"></button>
+            <!--h3 id="quick-view-title" class="text-2xl font-semibold mb-4 text-brand-primary">Site Details</h3-->
+            <div id="quick-view-content">
+                <p>Loading details...</p>
+            </div>
         </div>
     </div>
-</div>
 
-<div id="terms-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-button">×</span>
-        <h2>Terms & Conditions</h2>
-        <p>This site is intended for individuals 21 years of age or older.</p>
-       <p>Twirl Play is an independent affiliate site that compares and reviews online casino platforms. We do not offer or operate any gambling services ourselves. All external links lead to licensed third-party providers. Users are responsible for ensuring they meet age and legal requirements in their jurisdiction before engaging with any linked services. Gambling laws vary by location. Please verify local regulations before proceeding.</p>
+    <!-- Exit Intent Popup (from old code) -->
+    <div id="exit-intent-popup" class="modal fixed inset-0 bg-black/80 flex items-center justify-center p-4 z-[110] hidden" role="dialog" aria-modal="true" aria-labelledby="exit-intent-title">
+        <div class="popup-content relative bg-black border border-brand-primary rounded-lg shadow-2xl w-full max-w-md p-8 text-center">
+            <button class="modal-close absolute top-2 right-2 text-text-dark hover:text-white text-2xl lucide" aria-label="Close popup">x</button>
+            <span class="icon-gift text-5xl text-brand-secondary mb-4 block"></span>
+            <h3 id="exit-intent-title" class="text-2xl font-bold mb-3 text-white">Wait! Before You Go...</h3>
+            <p class="text-text-medium mb-6">Check out our top-rated gaming site for an exclusive bonus!</p>
+            <div id="exit-intent-offer" class="mb-6 border border-white/10 rounded-lg p-4 bg-bg-dark">
+                <p class="text-lg font-semibold">Loading exclusive offer...</p>
+            </div>
+            <a href="#" id="exit-intent-link" target="_blank" rel="noopener noreferrer sponsored" class="flash-button inline-block w-full bg-brand-primary text-white font-semibold px-8 py-3 rounded-md text-lg hover:bg-opacity-80 transition duration-200">Claim Bonus Now!</a>
+            <p class="text-xs text-text-dark mt-4">18+ T&Cs apply. BeGambleAware.org</p>
+        </div>
     </div>
-</div>
 
-<div id="privacy-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-button">×</span>
-        <p>This site is intended for users aged 21 or older.</p>
-        <p>We do not collect personal data without your consent. Cookies and analytics tools may be used to improve the user experience and track affiliate referrals. Your data is not sold or shared except for necessary tracking and functionality. Please review our full CCPA notice for details relevant to California residents.</p>
+    <div id="cookie-consent-banner" class="bg-bg-dark border-b-2 border-brand-primary p-4 shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <p class="text-sm text-text-medium text-center md:text-left">
+                We use cookies to enhance your experience, analyze site traffic, and assist in our marketing efforts. By clicking "Accept All", you agree to our use of cookies. Read our <a href="#privacy" data-page="privacy" class="nav-link underline text-brand-secondary hover:text-brand-primary">Privacy Policy</a>.
+            </p>
+            <div class="flex gap-3 flex-shrink-0">
+                <button id="accept-cookies" class="bg-brand-primary text-white px-4 py-1.5 rounded text-sm font-medium hover:bg-opacity-80 transition">Accept All</button>
+                <button id="reject-cookies" class="bg-gray-600 text-white px-4 py-1.5 rounded text-sm font-medium hover:bg-gray-500 transition">Reject All</button>
+                <a href="#cookies" data-page="cookies" class="text-text-medium underline px-2 py-1.5 rounded text-sm hover:text-white transition">Settings</a>
+            </div>
+        </div>
     </div>
-</div>
 
-<div id="disclaimer-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-button">×</span>
-         <h2 id="responsibleHeading">Disclaimer</h2>
-       <p>This website is a gambling affiliate site and does not provide gambling services itself. All offers are presented by licensed and regulated operators. We are not responsible for any financial losses or legal issues resulting from gambling activity. Please gamble responsibly and seek help if gambling becomes a problem. Visit BeGambleAware.org or similar organizations for support.</p>
-       <p><strong>Affiliate Disclosure:</strong> This site contains affiliate links. If you click on these links and sign up or make a deposit at a partner casino, we may receive a commission at no extra cost to you. This helps support our work in providing reviews and comparisons.</p>
+    <div id="sticky-offer-banner" class="bg-gradient-to-r from-brand-primary to-purple-600 p-3 shadow-lg">
+        <div class="container mx-auto flex flex-col md:flex-row justify-center items-center gap-4 text-center">
+            <p class="text-base font-medium text-white">
+                <span class="icon-star text-lg align-middle mr-1"></span> Special Offer: Get <strong class="text-brand-secondary">100 Free Spins</strong> at <strong id="sticky-offer-site">TopSite!</strong>
+            </p>
+            <a href="#" id="sticky-offer-link" target="_blank" rel="noopener noreferrer sponsored" class="inline-block bg-white text-brand-primary font-semibold px-6 py-2 rounded text-base hover:bg-gray-200 transition duration-200 flex-shrink-0">Claim Now</a>
+        </div>
     </div>
-</div>
 
-<div id="ccpa-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-button">×</span>
-       <p>This site is intended for individuals 21 years of age or older.</p>
-        <p>At Twirl Play, we are committed to protecting your privacy. This CCPA Privacy Notice explains how we collect, use, and disclose personal information, and the rights California residents have under the California Consumer Privacy Act (CCPA).</p>
-
-        <h3>1. Categories of Personal Information We Collect</h3>
-        <p>We may collect the following categories of personal information:</p>
-        <ul>
-          <li><strong>Identifiers:</strong> e.g., name, email address (if provided via contact form), IP address</li>
-          <li><strong>Internet Activity:</strong> e.g., browsing history on our site, interactions with our website and affiliate links, cookie data</li>
-          <li><strong>Geolocation Data:</strong> e.g., general location inferred from IP address</li>
-          <li><strong>Commercial Information:</strong> e.g., records related to clicks on affiliate/referral links</li>
-        </ul>
-
-        <h3>2. How We Collect Personal Information</h3>
-        <p>We collect personal information directly from you when you interact with our website (e.g., use the contact form), click on affiliate/referral links, or consent to cookies. We also collect information automatically through cookies and potentially third-party analytics tools to improve website performance and enhance user experience.</p>
-
-        <h3>3. Purpose for Collecting Personal Information</h3>
-        <p>We use personal information for the following purposes:</p>
-        <ul>
-          <li>To provide and personalize our content and affiliate offerings</li>
-          <li>To improve the website's functionality and performance</li>
-          <li>To track affiliate link performance and commissions (anonymized where possible)</li>
-          <li>To respond to inquiries submitted via the contact form</li>
-          <li>To comply with legal obligations</li>
-          <li>To manage cookie preferences</li>
-        </ul>
-
-        <h3>4. Disclosure of Personal Information</h3>
-        <p>We do not sell your personal information. However, we may share it with third parties for the following business purposes:</p>
-        <ul>
-          <li>With advertising and analytics partners (if used, e.g., Google Analytics) for performance tracking, subject to your cookie consent</li>
-          <li>With affiliate programs to track commissions derived from link clicks (often using anonymized or aggregated data)</li>
-          <li>With service providers who assist in operating our website (e.g., hosting providers)</li>
-        </ul>
-
-        <h3>5. Your Rights Under the CCPA</h3>
-        <p>As a California resident, you have the right to:</p>
-        <ul>
-          <li>Request to know the specific pieces and categories of personal data we collect about you, the sources, the purposes, and the categories of third parties with whom it is shared</li>
-          <li>Request the deletion of your personal data (subject to certain exceptions)</li>
-          <li>Correct inaccurate personal information</li>
-          <li>Opt-out of the "sale" or "sharing" of personal information (as defined by CCPA, which may include certain cookie/tracking activities for targeted advertising)</li>
-          <li>Limit the use and disclosure of sensitive personal information (if collected)</li>
-          <li>Not receive discriminatory treatment for exercising your privacy rights</li>
-        </ul>
-
-        <h3>6. How to Exercise Your Rights</h3>
-        <p>To exercise your rights under the CCPA, you can:</p>
-        <ul>
-          <li>Contact us directly through our website's contact form or email address (if provided)</li>
-              <li>Manage your cookie preferences through the cookie consent banner or settings (if available)</li>
-              <li>If applicable, use browser privacy controls like the Global Privacy Control (GPC) signal</li>
-        </ul>
-
-        <h3>7. Retention of Personal Information</h3>
-        <p>We retain personal information only as long as necessary for the purposes described above, to comply with legal obligations, resolve disputes, and enforce our agreements.</p>
-
-        <h3>8. Children's Privacy</h3>
-        <p>Our website is not intended for individuals under the age of 21 (or 16, as applicable under CCPA for data collection). We do not knowingly collect personal information from children. If you believe we have inadvertently collected such information, please contact us to request its deletion.</p>
-
-        <h3>9. Changes to This Notice</h3>
-        <p>We may update this CCPA Privacy Notice from time to time. Any changes will be posted on this page with an updated effective date.</p>
-
-        <h3>10. Contact Information</h3>
-        <p>If you have any questions or requests regarding this notice or your CCPA rights, please contact us using the contact form available on our website.</p>
-        <p>Effective Date: 01.4.2025</p>
-    </div>
-</div>
-
-<div id="responsible-gambling-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-button">×</span>
-       <p>At Twirl Play, we are committed to promoting responsible gambling. While we only provide affiliate links to licensed operators, we understand the potential risks associated with gambling.</p>
-
-        <h3>Gambling Should Be Fun</h3>
-        <p>Gambling is a form of entertainment and should not be used as a way to generate income or escape problems. Please play responsibly and know your limits.</p>
-
-        <h3>Stay In Control</h3>
-        <ul>
-            <li>Only gamble with money you can afford to lose</li>
-            <li>Set a budget and stick to it</li>
-            <li>Avoid gambling when upset or under the influence</li>
-            <li>Keep track of time and money spent</li>
-            <li>Take regular breaks</li>
-        </ul>
-
-        <h3>Get Support</h3>
-        <p>If you or someone you know is struggling with gambling, there is help available. These organizations offer free, confidential support:</p>
-        <ul>
-            <li><a href="https://www.begambleaware.org" target="_blank" rel="noopener noreferrer">BeGambleAware.org</a> – UK-based, resources & support</li>
-            <li><a href="https://www.gamblersanonymous.org" target="_blank" rel="noopener noreferrer">Gamblers Anonymous</a> – International fellowship</li>
-            <li><a href="https://www.ncpgambling.org" target="_blank" rel="noopener noreferrer">National Council on Problem Gambling (NCPG)</a> – US National Helpline</li>
-            <li><a href="https://www.gamblingtherapy.org" target="_blank" rel="noopener noreferrer">Gambling Therapy</a> – Global online support & resources</li>
-        </ul>
-        <p>Many online casinos also offer tools like deposit limits, self-exclusion, and reality checks. Use them if needed.</p>
-        <p>Twirl Play does not accept responsibility for any losses incurred through gambling. By using this site, you confirm that you are over 21 (or the legal gambling age in your jurisdiction) and agree to gamble responsibly.</p>
-    </div>
-</div>
-
-<div id="cookieConsent" style="display: none;">
-<div class="cookie-box">
-<p>We use cookies to improve your experience on our site. By using our site, you agree to our use of cookies.</p>
-<button id="acceptCookies">Got it!</button>
-</div>
-</div>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-const hamburger = document.querySelector('.hamburger');
-const navLinks = document.querySelector('.nav-links');
- const modalLinks = document.querySelectorAll('nav a:not([href="#home"]), footer a');
-const modals = document.querySelectorAll('.modal');
-const closeButtons = document.querySelectorAll('.close-button');
-const casinosListContainer = document.getElementById('casinos-list');
-const gamesListContainer = document.getElementById('games-list');
-        const casinoRadios = document.querySelectorAll('input[name="casino-sort"]');
-        const gameRadios = document.querySelectorAll('input[name="game-sort"]');
-
-hamburger.addEventListener('click', () => {
-navLinks.classList.toggle('active');
-hamburger.classList.toggle('active'); // Add active class to hamburger for styling changes
-});
-
-navLinks.querySelectorAll('a').forEach(link => {
-link.addEventListener('click', () => {
-navLinks.classList.remove('active');
-hamburger.classList.remove('active'); // Remove active class when a link is clicked
-});
-});
-
-modalLinks.forEach(link => {
-link.addEventListener('click', function(event) {
-event.preventDefault();
-const modalId = this.getAttribute('href');
-const modal = document.querySelector(modalId);
-if (modal) {
-modal.style.display = 'block';
-}
-});
-});
-
-closeButtons.forEach(button => {
-button.addEventListener('click', function() {
-const modal = this.closest('.modal');
-if (modal) {
-modal.style.display = 'none';
-}
-});
-});
-
-window.addEventListener('click', function(event) {
-modals.forEach(modal => {
-if (event.target === modal) {
-modal.style.display = 'none';
-}
-});
-});
-
-const casinosData = [
-{ name: 'Lucky Spins Casino', rating: 5, features: ['Wide Game Selection', 'Generous Welcome Bonus', '24/7 Support'], link: 'https://example.com/luckyspins', logo: '/img/img01.jpg' },
-{ name: 'Vegas Crown', rating: 4, features: ['Live Casino Games', 'Loyalty Program', 'Mobile Friendly'], link: 'https://example.com/vegascrown', logo: '/img/img02.jpg' },
-{ name: 'Galaxy Casino', rating: 5, features: ['Progressive Jackpots', 'VIP Program', 'Fast Payouts'], link: 'https://example.com/galaxycasino', logo: '/img/img03.jpg' },
-{ name: 'Royal Aces', rating: 4, features: ['Excellent Mobile App', 'Sports Betting', 'Diverse Limits'], link: 'https://example.com/royalaces', logo: '/img/img04.jpg' },
-{ name: 'Black Diamond Casino', rating: 5, features: ['High Withdrawal Limits', 'Exclusive Tournaments', 'Personalized Support'], link: 'https://example.com/blackdiamond', logo: '/img/img05.jpg' },
-{ name: 'Spin Palace', rating: 4, features: ['Established Reputation', 'Multi-Language Support', 'Wide Range of Slots'], link: 'https://example.com/spinpalace', logo: '/img/img06.jpg' },
-{ name: 'Jackpot City', rating: 5, features: ['Massive Jackpots', 'High Payout Rates', 'User-Friendly Interface'], link: 'https://example.com/jackpotcity', logo: '/img/img07.jpg' },
-{ name: 'Ruby Fortune', rating: 4, features: ['Consistent Bonus Offers', 'Safe and Secure', 'Variety of Table Games'], link: 'https://example.com/rubyfortune', logo: '/img/img08.jpg' },
-{ name: 'Europa Casino', rating: 4, features: ['European Themed', 'Extensive Game Library', 'Live Dealers'], link: 'https://example.com/europacasino', logo: '/img/img09.jpg' },
-{ name: 'PlayBrave Casino', rating: 5, features: ['Innovative Games', 'Crypto-Friendly', 'Transparent Policies'], link: 'https://example.com/playbrave', logo: '/img/img10.jpg' }
-];
-
-const gamesData = [
-{ name: 'Galaxy Gems', rating: 5, popularity: 9, features: ['Stunning Visuals', 'High Payout Potential', 'Engaging Bonus Rounds'], link: 'https://example.com/galaxygems', logo: '/img/img11.jpg' },
-{ name: 'Safari Fortune', rating: 4, popularity: 7, features: ['Free Spins Feature', 'Progressive Jackpot', 'Relaxing Theme'], link: 'https://example.com/safarifortune', logo: '/img/img12.jpg' },
-{ name: 'Mystic Adventure', rating: 5, popularity: 8, features: ['Interactive Storyline', 'Multiple Bonus Levels', 'Rich Graphics'], link: 'https://example.com/mysticadventure', logo: '/img/img13.jpg' },
-{ name: ' подводный мир ', rating: 4, popularity: 6, features: [' подводный мир Theme', 'Expanding Wilds', ' подводный мир Sounds'], link: 'https://example.com/ подводный мир ', logo: '/img/img14.jpg' },
-{ name: 'Cosmic Reels', rating: 5, popularity: 9, features: ['Unique Reel Layout', 'Respins Feature', 'Futuristic Design'], link: 'https://example.com/cosmicreels', logo: '/img/img15.jpg' },
-{ name: 'Treasure Dive', rating: 4, popularity: 7, features: [' подводный мир Bonus Game', 'Multiplier Rewards', ' подводный мир Soundtrack'], link: 'https://example.com/treasuredive', logo: '/img/img16.jpg' },
-{ name: 'Fiery Wilds', rating: 5, popularity: 8, features: ['Sticky Wilds', 'High Volatility', 'Classic Slot Feel'], link: 'https://example.com/fierywilds', logo: '/img/img17.jpg' },
-{ name: 'Jewel Lagoon', rating: 4, popularity: 6, features: ['Cascading Reels', 'Increasing Multipliers', 'Gem-Themed'], link: 'https://example.com/jewellagoon', logo: '/img/img17.jpg' },
-{ name: 'Raptor Attack', rating: 4, popularity: 7, features: ['Dinosaur Theme', 'Random Wild Events', 'Thrilling Soundtrack'], link: 'https://example.com/raptorattack', logo: '/img/img19.jpg' },
-{ name: 'Bonus Fiesta', rating: 5, popularity: 8, features: ['Multiple Bonus Games', 'Festive Atmosphere', 'High Entertainment Value'], link: 'https://example.com/bonusfiesta', logo: '/img/img20.jpg' }
-];
-
-function displayItems(items, containerId, isCasino = true) {
-const container = document.getElementById(containerId);
-container.innerHTML = '';
-items.forEach(item => {
-const listItem = document.createElement('div');
-listItem.classList.add('list-item');
-const ratingStars = '★'.repeat(item.rating);
-const featuresHTML = item.features.map(feature => `<span class="tick">✓</span> ${feature}`).join('');
-const buttonText = isCasino ? 'Visit Site' : 'Play Now';
-const logoHTML = item.logo
-? `<img src="${item.logo}" alt="${item.name} logo" class="logo-image">`
-: `<div class="logo-placeholder">${item.name.substring(0, 2).toUpperCase()}</div>`;
-
-listItem.innerHTML =
-`${logoHTML}
-<div class="item-details">
-<h3>${item.name}</h3>
-<div class="rating">${ratingStars}</div>
-<div class="features">${featuresHTML}</div>
-</div>
-<a href="${item.link}" class="button-link" target="_blank" rel="noopener noreferrer">${buttonText}</a>`;
-container.appendChild(listItem);
-});
-}
-
-function sortData(data, sortBy) {
-return [...data].sort((a, b) => {
-if (sortBy === 'rating') {
-return b.rating - a.rating;
-} else if (sortBy === 'name') {
-return a.name.localeCompare(b.name);
-} else if (sortBy === 'popularity') {
-return b.popularity - a.popularity;
-} else if (sortBy === 'features') {
-const featureA = a.features.join(' ');
-const featureB = b.features.join(' ');
-return featureA.localeCompare(featureB);
-}
-return 0;
-});
-}
-
-        casinoRadios.forEach(radio => {
-            radio.addEventListener('change', function() {
-                const sortBy = this.value;
-                const sortedCasinos = sortData(casinosData, sortBy);
-                displayItems(sortedCasinos, 'casinos-list', true);
-            });
-        });
-
-        gameRadios.forEach(radio => {
-            radio.addEventListener('change', function() {
-                const sortBy = this.value;
-                const sortedGames = sortData(gamesData, sortBy);
-                displayItems(sortedGames, 'games-list', false);
-            });
-        });
-
-displayItems(sortData(casinosData, 'rating'), 'casinos-list', true);
-displayItems(sortData(gamesData, 'rating'), 'games-list', false);
-});
-</script>
-<script>
-const toTopBtn = document.getElementById("toTopBtn");
-
-window.onscroll = function() {
-if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-toTopBtn.style.display = "block";
-} else {
-toTopBtn.style.display = "none";
-}
-};
-
-toTopBtn.onclick = function() {
-window.scrollTo({ top: 0, behavior: 'smooth' });
-};
-</script>
-
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const columns = [
-    document.getElementById('column1'),
-    document.getElementById('column2'),
-    document.getElementById('column3'),
-    document.getElementById('column4')
-  ];
-  
-  const symbols = columns.map(column => column.querySelector('.slot-symbol'));
-  const spinButton = document.getElementById('spin-button');
-  const spinsLeftElement = document.getElementById('spins-left');
-  const winModal = document.getElementById('win-modal');
-  const noSpinsModal = document.getElementById('no-spins-modal');
-  const continueButton = document.getElementById('continue-button');
-  const okayButton = document.getElementById('okay-button');
-  
-  let spinsLeft = 3;
-  let hasWon = false;
-  let winOnTry = Math.floor(Math.random() * 3) + 1; // Random number between 1-3
-  
-  // Update spins counter display
-  spinsLeftElement.textContent = spinsLeft;
-  
-  // Function to generate random number between 0-9
-  function getRandomNumber() {
-    return Math.floor(Math.random() * 10);
-  }
-  
-  // Function to animate spinning
-  function animateSpin(column, finalValue, delay) {
-    return new Promise(resolve => {
-      column.classList.add('spinning');
-      
-      setTimeout(() => {
-        column.classList.remove('spinning');
-        const symbol = column.querySelector('.slot-symbol');
-        symbol.textContent = finalValue;
-        
-        if (finalValue === 8) {
-          symbol.classList.add('seven');
-        } else {
-          symbol.classList.remove('seven');
-        }
-        
-        resolve();
-      }, delay);
-    });
-  }
-  
-  // Create decorative elements (coins, dice, money)
-  function createDecorative() {
-    for (let i = 0; i < 10; i++) {
-      setTimeout(() => {
-        const coin = document.createElement('div');
-        coin.classList.add('coin');
-        coin.style.left = Math.random() * window.innerWidth + 'px';
-        coin.style.top = '-50px';
-        document.body.appendChild(coin);
-        setTimeout(() => coin.remove(), 2000);
-      }, Math.random() * 2000);
-    }
-    
-    for (let i = 0; i < 5; i++) {
-      setTimeout(() => {
-        const dice = document.createElement('div');
-        dice.classList.add('dice');
-        dice.style.left = Math.random() * window.innerWidth + 'px';
-        dice.style.top = '-50px';
-        dice.innerText = Math.floor(Math.random() * 6) + 1;
-        document.body.appendChild(dice);
-        setTimeout(() => dice.remove(), 2500);
-      }, Math.random() * 1500);
-    }
-    
-    for (let i = 0; i < 8; i++) {
-      setTimeout(() => {
-        const money = document.createElement('div');
-        money.classList.add('money');
-        money.style.left = Math.random() * window.innerWidth + 'px';
-        money.style.top = '-50px';
-        document.body.appendChild(money);
-        setTimeout(() => money.remove(), 2500);
-      }, Math.random() * 2000);
-    }
-  }
-  
-  // Create fireworks
-  function createFireworks() {
-    const fireworksContainer = document.createElement('div');
-    fireworksContainer.style.position = 'fixed';
-    fireworksContainer.style.top = '0';
-    fireworksContainer.style.left = '0';
-    fireworksContainer.style.width = '100%';
-    fireworksContainer.style.height = '100%';
-    fireworksContainer.style.pointerEvents = 'none';
-    fireworksContainer.style.zIndex = '1000';
-    document.body.appendChild(fireworksContainer);
-    
-    const fireworkCount = 20;
-    const colors = ['#ff0000', '#ffff00', '#00ff00', '#00ffff', '#0000ff', '#ff00ff'];
-    
-    for (let i = 0; i < fireworkCount; i++) {
-      setTimeout(() => {
-        const x = Math.random() * window.innerWidth;
-        const y = Math.random() * window.innerHeight * 0.7;
-        const firework = document.createElement('div');
-        firework.classList.add('firework');
-        firework.style.left = x + 'px';
-        firework.style.top = y + 'px';
-        
-        const particleCount = 30 + Math.floor(Math.random() * 20);
-        const color = colors[Math.floor(Math.random() * colors.length)];
-        
-        for (let j = 0; j < particleCount; j++) {
-          const particle = document.createElement('div');
-          const angle = (j / particleCount) * 360;
-          const distance = 50 + Math.random() * 50;
-          
-          particle.style.position = 'absolute';
-          particle.style.width = '3px';
-          particle.style.height = '3px';
-          particle.style.backgroundColor = color;
-          particle.style.borderRadius = '50%';
-          particle.style.left = '0';
-          particle.style.top = '0';
-          particle.style.transformOrigin = 'center';
-          particle.style.boxShadow = `0 0 6px ${color}`;
-          particle.style.animation = 'explode 1s ease-out forwards';
-          particle.style.transform = `rotate(${angle}deg) translateX(${distance}px)`;
-          
-          firework.appendChild(particle);
-        }
-        
-        fireworksContainer.appendChild(firework);
-        setTimeout(() => firework.remove(), 1500);
-      }, Math.random() * 3000);
-    }
-    
-    setTimeout(() => fireworksContainer.remove(), 5000);
-  }
-  
-  // Handle spin button click
-  spinButton.addEventListener('click', async function() {
-    if (spinsLeft <= 0 || hasWon) {
-      noSpinsModal.classList.add('active');
-      return;
-    }
-    
-    spinButton.disabled = true;
-    spinsLeft--;
-    spinsLeftElement.textContent = spinsLeft;
-    
-    const isWinningTry = spinsLeft === 3 - winOnTry;
-    let results = [];
-    
-    if (isWinningTry) {
-      results = [8, 8, 8, 8];
-      hasWon = true;
-    } else {
-      do {
-        results = [
-          getRandomNumber(),
-          getRandomNumber(),
-          getRandomNumber(),
-          getRandomNumber()
-        ];
-      } while (results.every(num => num === 8));
-    }
-    
-    const animationPromises = columns.map((column, index) => 
-      animateSpin(column, results[index], 500 + (index * 300))
-    );
-    
-    await Promise.all(animationPromises);
-    
-    if (hasWon) {
-      createDecorative();
-      createFireworks();
-      setTimeout(() => {
-        winModal.classList.add('active');
-      }, 1000);
-    }
-    
-    spinButton.disabled = false; // Re-enable button to allow showing noSpinsModal on next click
-  });
-  
-  // Continue button for win modal
-  continueButton.addEventListener('click', function() {
-    winModal.classList.remove('active');
-    document.getElementById('top-casinos').scrollIntoView({ behavior: 'smooth' });
-  });
-  
-  // Okay button for no spins modal
-  okayButton.addEventListener('click', function() {
-    noSpinsModal.classList.remove('active');
-    document.getElementById('top-casinos').scrollIntoView({ behavior: 'smooth' });
-  });
-  
-  // Close modals when clicking outside
-  winModal.addEventListener('click', function(event) {
-    if (event.target === winModal) {
-      winModal.classList.remove('active');
-      document.getElementById('top-casinos').scrollIntoView({ behavior: 'smooth' });
-    }
-  });
-  
-  noSpinsModal.addEventListener('click', function(event) {
-    if (event.target === noSpinsModal) {
-      noSpinsModal.classList.remove('active');
-      document.getElementById('top-casinos').scrollIntoView({ behavior: 'smooth' });
-    }
-  });
-});
-</script>
+    <!-- Load JSON data and script -->
+    <!--script src="data.json" defer></script-->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>
